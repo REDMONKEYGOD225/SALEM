@@ -1,12 +1,6 @@
-$(document).ready(function() {
-    // Créez un élément div pour la bannière
-    var banner = $('<div>').css({
-      backgroundColor: 'yellow',
-      padding: '10px',
-      textAlign: 'center'
-    }).text('This is a banner!');
-  
-    // Insérez la bannière entre le header et le contenu principal
-    $('header').after(banner);
-  });
-  
+function handleClick(event) {
+    event.preventDefault();
+    // Votre code de gestion d'événement ici
+    console.log("Clic sur le lien !");
+    // Vous pouvez ajouter votre code pour gérer l'événement onclick ici
+  }
